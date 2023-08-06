@@ -1,11 +1,24 @@
-import * as React from 'react';
-import './style.css';
+import LoginPage from "./components/pages/login";
+import { ToastContainer } from "react-toastify";
 
-export default function App() {
-  return (
-    <div className="bg">
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+function App() {
+    return (
+        <div className="bg-white sm:max-w-screen-sm max-h-full">
+            <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
+            <LoginPage />
+        </div>
+    );
 }
+
+export default App;
