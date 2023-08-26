@@ -20,13 +20,6 @@ const ButtonsSocmed = () => {
                 >
                     Linkedin
                 </Button>
-                <Button
-                    variant="secondary"
-                    size="s"
-                    onClick={() => toast.info("Login With Google")}
-                >
-                    Google
-                </Button>
             </div>
         </div>
     );
