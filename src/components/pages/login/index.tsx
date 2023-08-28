@@ -25,7 +25,7 @@ const LoginPage: React.FC = () => {
 			<div className="  flex min-h-screen w-screen items-center justify-center border px-6 md:w-[700px]">
 				<div className="flex w-96 flex-col gap-4 bg-white text-primary">
 					<div className="mb-12">
-						<h1 className="text-heading-xl font-bold">Hello</h1>
+						<h1 className="text-heading-xl font-bold">Hello Everyone</h1>
 						<p className="text-lg font-normal">
 							Enter your email and password to login.
 						</p>
