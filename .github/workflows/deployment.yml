@@ -3,10 +3,10 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Change this to your main branch name
+      - main # Change this to your main branch name
   pull_request:
     branches:
-      - main  # Change this to your main branch name
+      - main # Change this to your main branch name
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14  # Change this to your desired Node.js version
+          node-version: 16 # Change this to your desired Node.js version
 
       - name: Install dependencies
         run: yarn install
