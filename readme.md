@@ -1,6 +1,5 @@
 # Project Name - Slicing Login Page with Vite, Tailwind, and TypeScript
 
-
 Welcome to the README for the **Slicing Login Page** project! This repository contains the code for a login page that has been sliced from a design and built using Vite, Tailwind, and TypeScript. The project also utilizes React Hook Form for form handling, providing a smooth and efficient user experience.
 
 ## Tech Stack
@@ -13,9 +12,11 @@ Welcome to the README for the **Slicing Login Page** project! This repository co
 ## Project Preview
 
 ## Desktop View
+
 ![Desktop View](image.png)
 
 ## Mobile View
+
 ![Mobile View](image-1.png)
 
 ## Clone and Run
