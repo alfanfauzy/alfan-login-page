@@ -26,7 +26,3 @@ jobs:
 
       - name: Build project
         run: yarn build
-
-      # Add this line to exit with an error code if any step fails
-      - name: Set build status
-        run: exit ${{ job.status }}
